@@ -1,0 +1,86 @@
+:root{
+    --main-color:#020230;
+    --question-color:linear-gradient(#100241,black);
+    --answer-color:linear-gradient(#0e0124,#22074d);
+    --answer-hover:mediumblue;
+    --answer-correct-1:mediumblue;
+    --answer-correct-2:linear-gradient(#0e0124,#22074d);
+    --answer-wrong-1:mediumblue;
+    --answer-wrong-2:linear-gradient(#0e0124,#22074d);
+    --crimson:crimson;
+    --green:green;
+}   
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Roboto,Nunito,sans-serif;
+}
+.app{
+    height:100vh;
+    display: flex;
+    background-color:var(--main-color);
+    color: #fff;
+}
+.main{
+    width:75%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), var(--main-color)), url('./assets/bg.jpg') center;
+    display: flex;
+    flex-direction: column;
+} 
+.main__top{
+    height: 50%;
+    position: relative;
+}
+.timer{
+    height:70px;
+    width:70px;
+    border-radius: 50%;
+    border:5px solid white;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+}
+.main__bottom{
+    height: 50%;
+}
+.pyramid{
+    width:25%;
+    align-items: center;
+    justify-content: center;
+}
+.pyramid__money-list{
+    list-style: none;
+    width:100%;
+    padding: 20px;
+}
+.pyramid__money-list-item{
+    display:flex;
+    align-items: center;
+    padding:5px;
+    border-radius: 5px;
+}
+.pyramid__money-list-item.active{
+    background-color: teal;
+}
+.pyramid__money-list-item-number{
+    font-size: 18px;
+    font-weight: 100px;
+    width: 30%;
+}
+.pyramid__money-list-item-amount{
+    font-size: 20px;
+    font-weight: 300;
+}
+.main__earned-text{
+    position:relative;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
