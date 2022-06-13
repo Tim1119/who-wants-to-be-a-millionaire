@@ -1,3 +1,7 @@
+# Who Wants to be a millonaire app
+I created a who want to be a millionaire app using react js. It animates just like in the real world with sound effects however it is not for mobile i.e not mobile responsive
+
+
 
 ![image1.PNG](https://github.com/Tim1119/who-wants-to-be-a-millionaire/blob/main/src/assets/final-images/image1.PNG?raw=true))
 ![image2.PNG](https://github.com/Tim1119/who-wants-to-be-a-millionaire/blob/main/src/assets/final-images/image2.PNG?raw=true))
